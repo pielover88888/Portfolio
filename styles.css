@@ -17,6 +17,18 @@ transition: 1s;
 transition-delay:0.2s;
 }
 
+.gallery {
+width:50%;
+transition: 1s;
+transition-delay:0.1s;
+}
+.gallery:hover {
+width:100%;
+transition: 1s;
+transition-delay:0.2s;
+}
+
+
 .sideheader {
 //Yes, I know. Sideheader. Silly.
 height:500px;

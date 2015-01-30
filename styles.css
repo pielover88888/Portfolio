@@ -18,14 +18,23 @@ transition-delay:0.2s;
 }
 
 .gallery {
-width:50%;
+border:1px solid black;
+	//float: left;
+	width: 30%;
+	//height: 90px;
+	margin: 5px;
+position:relative;
+width:10%;
 transition: 1s;
 transition-delay:0.1s;
 }
 .gallery:hover {
-width:100%;
+width:30%;
 transition: 1s;
 transition-delay:0.2s;
+margin-top:-30%;
+background-color:#cccccc;
+border-radius:5px;
 }
 
 

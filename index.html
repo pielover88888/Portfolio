@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <style>
+body {
+    color: #fdfdfd;
+background-color:#acacac;
+margin-left:5%;
+margin-top:3.5%;
+}
 img.pie {
 width:80%;
 transition: width 1s;
@@ -14,7 +20,7 @@ transition-delay:0.2s;
 .sideheader {
 //Yes, I know. Sideheader. Silly.
 height:500px;
-width:10%;
+width:15%;
 overflow-y:hidden;
 float:right;
 border: 5px outset #cccccc;
@@ -22,9 +28,27 @@ border-radius: 15px;
 word-wrap: break-word;
 background-color:#a1a1a1; 
 margin-right:-6px;
-margin-top:-6px;
+margin-top:-3.5%;
 }
 
+
+.main {
+display:block;
+word-wrap: break-word;
+width:70%;
+border:7px inset white;
+border-radius:10px;
+}
+
+
+
+p {
+background-color:#a7a7a7;
+width:90%;
+border-radius:5px;
+word-wrap: break-word;
+margin-left:1%;
+}
 a:link {
 text-decoration: none;
 color:#ffffff;
@@ -47,13 +71,23 @@ margin-top:98px;
 //margin-left:5px;
 }
 </style>
+<!--begin sideheader-->
 <div class="sideheader">
-<img class="pie" src=pumpkin_pie.png>
+<img class="pie" src=pumpkin_pie.png><br>
 <a href="http://gooe.com" class="buttony">
-test</a><a href="http://xkcd.com" class="buttony">
-visited</a>
+test</a>
+ 
+<a href="http://xkcd.com" class="buttony">visited</a>
+<br>
+This is not even closed to being finished yet xD<br><br><br><br><br><br>
+</div><!--end sideheader-->
+<!--begin page content-->
+<div class="main">
 
-<br><br><br><br><br><br><br><br>
-
-
+Testing wordwrappability, so I should keep writing for awhile. Yep, just writing and writing. Actually more like typing than writing. Word wrapping should commence.. perhaps it already has. On most displays, it would've by now.
+Oh, here's a paragraph: <p>A Paragraph!</p>
+Here, have another one:
+<p>
+The width of this <code>&lt;p&gt;</code> is 90% the width of the <code>&lt;div&gt;</code> it's being displayed in. I am using <code>&lt;code&gt;</code> tags when I say the elements. this <code>&lt;p&gt;</code> tag has a border radius of 5 pixels.
+</p>
 </div>

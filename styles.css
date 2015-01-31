@@ -79,6 +79,11 @@ border-radius:5px;
 word-wrap: break-word;
 margin-left:1%;
 }
+a {
+border-radius:90px;
+background-color:#999999;
+margin-top:98px;
+}
 a:link {
 text-decoration: none;
 color:#EEEEEE;

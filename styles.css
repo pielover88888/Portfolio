@@ -109,7 +109,7 @@ margin-top:-6px;
     margin-left:-10.0%;
     width: 200px;
     height: 23px;
-    background: linear-gradient(cyan, blue);
+    background: linear-gradient(5deg,#799ea3,#286a74);
     -ms-transform: rotate(-43deg); /* IE 9 */
     -webkit-transform: rotate(-43deg); /* Chrome, Safari, Opera */
     transform: rotate(-43deg); /* Standard syntax */
